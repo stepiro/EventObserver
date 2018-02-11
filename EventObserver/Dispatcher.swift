@@ -60,7 +60,7 @@ public class QueueDispatcher: DispatcherType {
     private let serialQueue: DispatchQueue
     
     public init(qos: DispatchQoS = .default,
-                label: String = "fi.eventobserver.queue",
+                label: String,
                 target: DispatchQueue? = nil) {
         serialQueue = DispatchQueue(label: label,
                                     qos: qos,

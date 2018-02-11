@@ -7,6 +7,7 @@
 //
 
 import XCTest
+
 @testable import EventObserver
 
 struct StructData: Comparable {

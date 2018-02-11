@@ -43,7 +43,7 @@ public class Event<Element>: EventType {
     }
 }
 
-private protocol Invocable: class {
+protocol Invocable: class {
     func invoke(_ data: Any)
 }
 

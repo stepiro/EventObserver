@@ -17,6 +17,9 @@
 		7BB7AF431FF5A836008ACF40 /* Dispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB7AF421FF5A836008ACF40 /* Dispatcher.swift */; };
 		7BB7AF451FF5A839008ACF40 /* DispatcherType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB7AF441FF5A839008ACF40 /* DispatcherType.swift */; };
 		7BB7AF471FFC0150008ACF40 /* Locker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB7AF461FFC0150008ACF40 /* Locker.swift */; };
+		7BB7AF4B1FFC31A0008ACF40 /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB7AF4A1FFC31A0008ACF40 /* Subject.swift */; };
+		7BB7AF4D1FFC31D5008ACF40 /* SubjectType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB7AF4C1FFC31D5008ACF40 /* SubjectType.swift */; };
+		7BB7AF4F1FFC3D12008ACF40 /* SubjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB7AF4E1FFC3D12008ACF40 /* SubjectTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +46,9 @@
 		7BB7AF421FF5A836008ACF40 /* Dispatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dispatcher.swift; sourceTree = "<group>"; };
 		7BB7AF441FF5A839008ACF40 /* DispatcherType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatcherType.swift; sourceTree = "<group>"; };
 		7BB7AF461FFC0150008ACF40 /* Locker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locker.swift; sourceTree = "<group>"; };
+		7BB7AF4A1FFC31A0008ACF40 /* Subject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
+		7BB7AF4C1FFC31D5008ACF40 /* SubjectType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectType.swift; sourceTree = "<group>"; };
+		7BB7AF4E1FFC3D12008ACF40 /* SubjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,8 @@
 				7BB7AF211FF5A343008ACF40 /* EventObserver.h */,
 				7BB7AF221FF5A343008ACF40 /* Info.plist */,
 				7BB7AF461FFC0150008ACF40 /* Locker.swift */,
+				7BB7AF4A1FFC31A0008ACF40 /* Subject.swift */,
+				7BB7AF4C1FFC31D5008ACF40 /* SubjectType.swift */,
 			);
 			path = EventObserver;
 			sourceTree = "<group>";
@@ -101,6 +109,7 @@
 		7BB7AF2B1FF5A343008ACF40 /* EventObserverTests */ = {
 			isa = PBXGroup;
 			children = (
+				7BB7AF4E1FFC3D12008ACF40 /* SubjectTests.swift */,
 				7BB7AF2C1FF5A343008ACF40 /* EventObserverTests.swift */,
 				7BB7AF2E1FF5A344008ACF40 /* Info.plist */,
 			);
@@ -218,6 +227,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BB7AF4B1FFC31A0008ACF40 /* Subject.swift in Sources */,
+				7BB7AF4D1FFC31D5008ACF40 /* SubjectType.swift in Sources */,
 				7BB7AF411FF5A603008ACF40 /* Event.swift in Sources */,
 				7BB7AF401FF5A603008ACF40 /* EventSubscribeType.swift in Sources */,
 				7BB7AF471FFC0150008ACF40 /* Locker.swift in Sources */,
@@ -232,6 +243,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BB7AF4F1FFC3D12008ACF40 /* SubjectTests.swift in Sources */,
 				7BB7AF2D1FF5A343008ACF40 /* EventObserverTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
